@@ -1,0 +1,168 @@
+12:59:57.739 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 37
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+{"name":"pritesh","job":"consultant"}
+
+13:00:00.113 response time in milliseconds: 2371.60
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6faa410d3a5576ef-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 87
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Apr 2022 07:29:59 GMT
+1 < Etag: W/"57-Th6BIHXMi2RZ+sRk9JBxh3HOM8k"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1WFhxy0AmdA9JgrBNxgR%2F560CR%2BReNlMtbdZbw75K6lOE0MAyp3LSRAQKYYWrrpWF72qfERCB9EZPMyB%2BoL1KT0W%2BRAAO1keo%2B0evBlZt8ic4kqvwbEuZLMcar0%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"name":"pritesh","job":"consultant","id":"693","createdAt":"2022-04-12T07:29:59.905Z"}
+
+13:00:00.122 [print] {
+  "createdAt": "2022-04-12T07:29:59.905Z",
+  "name": "pritesh",
+  "id": "693",
+  "job": "consultant"
+}
+
+13:00:00.137 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 28
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+{"name":"rajesh","job":"QA"}
+
+13:00:01.530 response time in milliseconds: 1400.08
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6faa41164dda768c-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 78
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Apr 2022 07:30:01 GMT
+1 < Etag: W/"4e-nbIUjsPWwbdsEX+RD0Sx1CKEKTY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eLECJx20TZNH2%2FvAvMw9soUYND5zeZJw0uIDyQAasnCctkvynXHvqR6slSqtjUA6ekrALJFd4Di75HuwuF0%2BxV2rKZeNmK%2BxsH0x9E7RUK%2FgMW8gj4aCCh1Y7%2Fo%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"name":"rajesh","job":"QA","id":"668","createdAt":"2022-04-12T07:30:01.364Z"}
+
+13:00:01.552 [print] {
+  "createdAt": "2022-04-12T07:30:01.364Z",
+  "name": "rajesh",
+  "id": "668",
+  "job": "QA"
+}
+
+13:00:01.568 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 38
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+{"name":"rohini","job":"professional"}
+
+13:00:03.211 response time in milliseconds: 1651.38
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6faa4122daee063d-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 88
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Apr 2022 07:30:03 GMT
+1 < Etag: W/"58-u4KV6kPL+/b8wKbXQy6xc6uNLTc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=n1C79HdAzzd55l3mlrrWYromUeeUfbNJFirfp6ubA4p7Bmz%2FPzXyD0p13iDTaYyZVED%2FH65HAGSjRvAkEVgs76yFYCkIR7XPSN0jy%2Fi8kbhkz%2Fszsp%2FQv4ZjPSU%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"name":"rohini","job":"professional","id":"452","createdAt":"2022-04-12T07:30:03.378Z"}
+
+13:00:03.224 [print] {
+  "createdAt": "2022-04-12T07:30:03.378Z",
+  "name": "rohini",
+  "id": "452",
+  "job": "professional"
+}
+
+nt/4.5.12 (Java/1.8.0_301)
+
+19:08:05.470 response time in milliseconds: 1847.89
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Age: 67
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 6f8b66d659ba7795-LHR
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Length: 2
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 08 Apr 2022 13:38:09 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F%2F6eaZ2GiRwEAJXXOm2j63xlzz4qHnPFpuEX0fgy4YGLo637dGu4d%2BBDE%2FY78toGpI5VO7I1sB46VYbOY%2BX7XimXaphZgB%2B7LG%2BY4vo5egf65Kml%2FwlgzKyrEjs%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{}
+
+19:08:05.487 request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Accept: */*
+1 > Accept-Encoding: gzip, deflate, br
+1 > Connection: keep-alive
+1 > Host: <calculated when request is sent>
+1 > User-Agent: PostmanRuntime/7.29.0
+
+19:08:07.010 response time in milliseconds: 1518.00
+1 < 400
+1 < CF-RAY: -
+1 < Connection: close
+1 < Content-Length: 155
+1 < Content-Type: text/html
+1 < Date: Fri, 08 Apr 2022 13:38:10 GMT
+1 < Server: cloudflare
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+
+19:08:07.028 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; The element type "hr" must be terminated by the matching end-tag "</hr>".
+19:08:07.028 [print] <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+
+

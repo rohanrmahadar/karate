@@ -1,0 +1,13 @@
+<testsuite failures="0" name="src/test/java/karate/features/PutApi.feature" skipped="0" tests="1" time="3.045339">
+  <testcase classname="src.test.java.karate.features.PutApi" name="update user" time="3.045339">
+    <system-out>* header Content-type = 'application/json' ................................ passed
+* def jsonObject = ........................................................ passed
+Given url baseUrl+'/api/users' ............................................ passed
+And path 2 ................................................................ passed
+And request jsonObject .................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match $.job == "professional II" ...................................... passed</system-out>
+  </testcase>
+</testsuite>

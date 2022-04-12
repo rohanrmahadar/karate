@@ -1,0 +1,15 @@
+Feature: API call testing feature
+
+Scenario: list of users
+Given url 'https://reqres.in/api/users'
+And param page = 2
+When method GET
+Then print response
+
+
+Scenario: single user not found
+Given url 'https://reqres.in/api/users'
+And param 23
+When method GET
+Then print response
+

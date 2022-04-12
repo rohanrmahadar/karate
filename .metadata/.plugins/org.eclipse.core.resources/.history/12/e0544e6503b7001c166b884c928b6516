@@ -1,0 +1,13 @@
+Feature: Practicing on karate
+
+Scenario: Print any statement
+
+* print 'This is my first karate session'
+
+Scenario: Multiplication of two numbers
+
+* dec a=20
+* dec b=10
+* print 'mul is->' + (a * b)
+
+

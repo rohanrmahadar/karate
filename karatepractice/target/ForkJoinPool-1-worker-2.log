@@ -1,0 +1,55 @@
+15:03:48.146 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 37
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+{"name":"rohan","job":"professional"}
+
+15:03:49.353 response time in milliseconds: 1212.23
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 6fa2b90db81888ad-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 87
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 11 Apr 2022 09:33:49 GMT
+1 < Etag: W/"57-XLVKRNiA7wZY1qiKU/TKAMT4B5s"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7AVG0xYgFUcVGR%2FxUFgHPN6mxtRYK0cnXEXyyYFQE40fbIsZdgaVG%2F9VxEsGO%2BI24AE3ibo5IQXBADH6E3wGCUi3vpj%2BHcw4nU42q5d3kDecOODWad9p28tuSao%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"name":"rohan","job":"professional","id":"664","createdAt":"2022-04-11T09:33:49.111Z"}
+
+15:03:49.353 [print] {
+  "createdAt": "2022-04-11T09:33:49.111Z",
+  "name": "rohan",
+  "id": "664",
+  "job": "professional"
+}
+
+ns towards server costs are appreciated!"}}
+
+14:37:51.697 [print] {
+  "data": {
+    "last_name": "Lawson",
+    "id": 7,
+    "avatar": "https://reqres.in/img/faces/7-image.jpg",
+    "first_name": "Michael",
+    "email": "michael.lawson@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+
+in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+14:28:09.794 [print] Michael

@@ -1,0 +1,25 @@
+package com.test;
+
+public class Test implements Testable{
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Testable t=new Test(); System.out.println(Testable.i); t.m1();
+		 */
+		String a=null;
+		String b=null;
+		
+		System.out.println(a==b);
+		
+		boolean flag=true;
+		
+		for(;;) {
+		
+			if(flag==true) {
+			return;
+			}
+		}
+	}
+
+}

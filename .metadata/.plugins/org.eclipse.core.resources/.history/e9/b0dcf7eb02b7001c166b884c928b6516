@@ -1,0 +1,13 @@
+Feature: Practicing on karate
+
+Scenario: Print any statement
+
+* print 'This is my first karate session'
+
+Scenario: Multiplication of two numbers
+
+* def val1=20
+* def val2=10
+* print 'multiplication is->' + (val1 * val2)
+
+

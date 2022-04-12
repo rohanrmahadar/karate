@@ -1,0 +1,58 @@
+<testsuite failures="0" name="src/test/java/features/GetApiKarate.feature" skipped="0" tests="4" time="8.650647">
+  <testcase classname="src.test.java.features.GetApiKarate" name="list of users" time="3.311355">
+    <system-out>Given url baseUrl+'/api/users' ............................................ passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then def jsonResponse = response .......................................... passed
+And print jsonResponse.data[0].first_name ................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.GetApiKarate" name="list of users with query parameters" time="1.932648">
+    <system-out>Given url baseUrl+'/api/users' ............................................ passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then def jsonResponse = response .......................................... passed
+And print jsonResponse.data[0].first_name ................................. passed
+* def query = {page : 2, id : 7} .......................................... passed
+Given url baseUrl+'/api/users' ............................................ passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.GetApiKarate" name="single user not found" time="1.860333">
+    <system-out>Given url baseUrl+'/api/users' ............................................ passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then def jsonResponse = response .......................................... passed
+And print jsonResponse.data[0].first_name ................................. passed
+* def query = {page : 2, id : 7} .......................................... passed
+Given url baseUrl+'/api/users' ............................................ passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then print response ....................................................... passed
+Given url baseUrl+'/api/users' ............................................ passed
+And path '23' ............................................................. passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.GetApiKarate" name="pass user request with headers" time="1.54631">
+    <system-out>Given url baseUrl+'/api/users' ............................................ passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then def jsonResponse = response .......................................... passed
+And print jsonResponse.data[0].first_name ................................. passed
+* def query = {page : 2, id : 7} .......................................... passed
+Given url baseUrl+'/api/users' ............................................ passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then print response ....................................................... passed
+Given url baseUrl+'/api/users' ............................................ passed
+And path '23' ............................................................. passed
+When method GET ........................................................... passed
+Then status 404 ........................................................... passed
+* configure headers = {Host: '&lt;calculated when request is sent&gt;', User-Agent: 'PostmanRuntime/7.29.0', Accept: '*/*', Accept-Encoding: 'gzip, deflate, br', Connection: 'keep-alive'} . passed
+Given url baseUrl+'/api/users' ............................................ passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

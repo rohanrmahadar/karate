@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/karate/features/PostAPI.feature" skipped="0" tests="1" time="5.639033">
+  <testcase classname="src.test.java.karate.features.PostAPI" name="list of users" time="5.639033">
+    <system-out>* header Content-type = 'application/json' ................................ passed
+* def requestPayload = read('../data/request.json') ....................... passed
+Given url baseUrl+'/api/users' ............................................ passed
+And request requestPayload ................................................ passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+</testsuite>

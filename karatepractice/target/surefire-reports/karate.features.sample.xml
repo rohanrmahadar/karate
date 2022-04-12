@@ -1,0 +1,11 @@
+<testsuite failures="0" name="karate/features/sample.feature" skipped="0" tests="2" time="0.078199">
+  <testcase classname="karate.features.sample" name="Print any statement" time="0.017795">
+    <system-out>* print 'This is my first karate session' ................................. passed</system-out>
+  </testcase>
+  <testcase classname="karate.features.sample" name="Multiplication of two numbers" time="0.060404">
+    <system-out>* print 'This is my first karate session' ................................. passed
+* def a = 20 .............................................................. passed
+* def b = 10 .............................................................. passed
+* print 'mul is-&gt;' + (a * b) .............................................. passed</system-out>
+  </testcase>
+</testsuite>

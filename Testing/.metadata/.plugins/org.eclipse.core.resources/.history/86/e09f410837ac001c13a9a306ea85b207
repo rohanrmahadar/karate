@@ -1,0 +1,13 @@
+package com.qa;
+
+
+import java.util.Map;
+
+public class ABCD {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;specification&apos; in &apos;com.qa.restassured.TC001_GET_Request.postRequest()&apos; to &apos;httpsRequest&apos;&#x0D;&#x0A;- Original project: &apos;RestAssuredAutomation&apos;&#x0D;&#x0A;- Original element: &apos;com.qa.restassured.TC001_GET_Request.postRequest().specification&apos;&#x0D;&#x0A;- Renamed element: &apos;specification&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;specification&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;com.qa.restassured{TC001_GET_Request.java[TC001_GET_Request~postRequest@specification!791!845!812!824!QRequestSpecification;!0!false" name="httpsRequest" references="true" stamp="1630239057702" version="1.0"/>
+</session>

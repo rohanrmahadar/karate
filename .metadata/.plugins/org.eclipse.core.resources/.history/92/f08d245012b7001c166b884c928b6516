@@ -1,0 +1,9 @@
+Feature: Get API call testing feature
+
+Scenario: Get list of users
+
+* def query = {page:2}
+Given url https://reqres.in/api/users
+And params query
+When method GET
+Then status 200

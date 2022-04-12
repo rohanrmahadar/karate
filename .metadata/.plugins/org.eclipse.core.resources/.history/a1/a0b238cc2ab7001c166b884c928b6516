@@ -1,0 +1,7 @@
+Feature: API call testing feature
+
+Scenario: list of users
+Given url 'https://reqres.in/api/users'
+And param page = 2
+When method GET
+Then status 200

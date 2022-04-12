@@ -1,0 +1,6 @@
+Feature: Practicing on karate
+
+Scenario: Print any statement
+
+* print 'This is my first karate session'
+

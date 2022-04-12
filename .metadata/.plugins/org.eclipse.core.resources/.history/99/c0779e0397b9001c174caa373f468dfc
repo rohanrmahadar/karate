@@ -1,0 +1,11 @@
+Feature: Patch API call testing feature
+
+Background:
+* header Content-type = 'application/json'
+
+Scenario: update user
+Given url baseUrl+'/api/users'
+And path 2
+When method DELETE
+Then status 204 
+And print response

@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/karate/features/DeleteAPI.feature" skipped="0" tests="1" time="3.195416">
+  <testcase classname="src.test.java.karate.features.DeleteAPI" name="Delete user" time="3.195416">
+    <system-out>* header Content-type = 'application/json' ................................ passed
+Given url baseUrl+'/api/users' ............................................ passed
+And path 2 ................................................................ passed
+When method DELETE ........................................................ passed
+Then status 204 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21147" started-at="2022-01-27T23:30:49 IST" finished-at="2022-01-27T23:31:11 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21147" started-at="2022-01-27T23:30:49 IST" finished-at="2022-01-27T23:31:11 IST">
+      <class name="com.demo.test.LibraryAPI">
+        <test-method status="PASS" signature="addBookToLibrary(java.lang.String,java.lang.String)[pri:0, instance:com.demo.test.LibraryAPI@71423665]" name="addBookToLibrary" duration-ms="7482" started-at="2022-01-27T23:30:50 IST" data-provider="BooksData" finished-at="2022-01-27T23:30:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1602]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookToLibrary -->
+        <test-method status="PASS" signature="addBookToLibrary(java.lang.String,java.lang.String)[pri:0, instance:com.demo.test.LibraryAPI@71423665]" name="addBookToLibrary" duration-ms="1125" started-at="2022-01-27T23:30:57 IST" data-provider="BooksData" finished-at="2022-01-27T23:30:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1508]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookToLibrary -->
+      </class> <!-- com.demo.test.LibraryAPI -->
+      <class name="com.demo.test.RestDemo">
+        <test-method status="PASS" signature="postRequestDemo()[pri:0, instance:com.demo.test.RestDemo@370736d9]" name="postRequestDemo" duration-ms="12462" started-at="2022-01-27T23:30:58 IST" finished-at="2022-01-27T23:31:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestDemo -->
+      </class> <!-- com.demo.test.RestDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+@ignore
+Feature: API call testing feature
+
+Scenario: list of users
+Given headers Authorization = 'Bearer feb4f8f1956feac0d6eb7804295e3e7167d682f14dc82e41f4523041e0b6cb49'
+Given url 'https://gorest.co.in/public/v2/users'
+When method GET
+Then print response

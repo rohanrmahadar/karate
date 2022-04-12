@@ -1,0 +1,13 @@
+<testsuite failures="1" name="karate/features/Authtoken.feature" skipped="0" tests="1" time="0.047922">
+  <testcase classname="karate.features.Authtoken" name="list of users" time="0.047922">
+    <failure message="Authtoken.feature:5 - cannot convert to map: Authorization = 'Bearer feb4f8f1956feac0d6eb7804295e3e7167d682f14dc82e41f4523041e0b6cb49'">Given headers Authorization = 'Bearer feb4f8f1956feac0d6eb7804295e3e7167d682f14dc82e41f4523041e0b6cb49' . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Authtoken.feature:5 - cannot convert to map: Authorization = 'Bearer feb4f8f1956feac0d6eb7804295e3e7167d682f14dc82e41f4523041e0b6cb49'&#13;
+	at ✽.Given headers Authorization = 'Bearer feb4f8f1956feac0d6eb7804295e3e7167d682f14dc82e41f4523041e0b6cb49' (Authtoken.feature:5)&#13;
+
+Given url 'https://gorest.co.in/public/v2/users' .......................... skipped
+When method GET ........................................................... skipped
+Then print response ....................................................... skipped</failure>
+  </testcase>
+</testsuite>

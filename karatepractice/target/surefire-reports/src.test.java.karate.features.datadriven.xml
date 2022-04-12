@@ -1,0 +1,38 @@
+<testsuite failures="0" name="src/test/java/karate/features/datadriven.feature" skipped="0" tests="3" time="6.824431">
+  <testcase classname="src.test.java.karate.features.datadriven" name="create users" time="3.729002">
+    <system-out>Given url baseUrl+'/api/users' ............................................ passed
+And request {"name": pritesh	,"job": consultant} .......................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.karate.features.datadriven" name="create users" time="1.426912">
+    <system-out>Given url baseUrl+'/api/users' ............................................ passed
+And request {"name": pritesh	,"job": consultant} .......................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed
+Given url baseUrl+'/api/users' ............................................ passed
+And request {"name": rajesh	,"job": QA} ................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.karate.features.datadriven" name="create users" time="1.668516">
+    <system-out>Given url baseUrl+'/api/users' ............................................ passed
+And request {"name": pritesh	,"job": consultant} .......................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed
+Given url baseUrl+'/api/users' ............................................ passed
+And request {"name": rajesh	,"job": QA} ................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed
+Given url baseUrl+'/api/users' ............................................ passed
+And request {"name": rohini	,"job": professional} ......................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+</testsuite>

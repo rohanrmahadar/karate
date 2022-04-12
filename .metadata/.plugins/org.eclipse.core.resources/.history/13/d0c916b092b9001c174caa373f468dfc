@@ -1,0 +1,12 @@
+Feature: post API call testing feature
+
+Background:
+* header Content-type = 'application/json'
+* def requestPayload = read('../data/request.json')
+
+Scenario: list of users
+Given url baseUrl+'/api/users'
+And path 2
+When method PUT
+Then status 200 
+And print response

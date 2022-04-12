@@ -1,0 +1,6 @@
+<testsuite failures="0" name="karate/features/jsonexample.feature" skipped="0" tests="1" time="0.409092">
+  <testcase classname="karate.features.jsonexample" name="json array and object testing" time="0.409092">
+    <system-out>* def jsonObject = ........................................................ passed
+* print jsonObject.menu.popup.menuitem[0].value ........................... passed</system-out>
+  </testcase>
+</testsuite>
